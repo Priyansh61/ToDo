@@ -1,1 +1,0 @@
-// find odd numbers using while loop ?

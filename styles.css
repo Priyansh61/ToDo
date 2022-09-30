@@ -58,12 +58,13 @@ i {
     display: inline-block;
     min-width:75%;
 }
-.fa-trash {
-    display: none;
+
+.fa-trash:before {
+    display:none;
 }
+ 
 
-
-.task-li:hover > .fa-trash   {
+.task-li:hover > .fa-trash::before   {
     display: inline-block;
 }
 
