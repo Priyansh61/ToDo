@@ -58,14 +58,13 @@ i {
     display: inline-block;
     min-width:75%;
 }
+.fa-trash {
+    display: none;
+}
 
 
 .task-li:hover > .fa-trash   {
     display: inline-block;
-    background-color: black;
 }
 
-.fa-trash {
-    display: none;
-}
 
