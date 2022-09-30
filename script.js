@@ -25,7 +25,7 @@ form.addEventListener('submit',(list) =>{
 
         task.prepend(box);
         task.append(text);
-        task.append(bin_icon);
+        task.appendChild(bin_icon);
 
         todo.append(task);
         task_add.value='';
